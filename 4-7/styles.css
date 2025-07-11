@@ -1,0 +1,73 @@
+/* Fuente general */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #e0f7fa, #80deea);
+  color: #333;
+}
+
+/* Contenedor principal */
+.contenedor-principal {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Encabezado y navegación */
+.encabezado {
+  background-color: #006064;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.navegacion ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navegacion a {
+  color: #e0f7fa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navegacion a:hover {
+  color: #ffd54f;
+}
+
+/* Secciones */
+.seccion {
+  margin: 40px 0;
+}
+
+.titulo-seccion {
+  font-size: 1.8em;
+  color: #004d40;
+}
+
+.parrafo {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Span destacado */
+.destacado {
+  color: #d32f2f;
+  font-weight: bold;
+  background-color: #fff9c4;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+/* Pie de página */
+.pie {
+  text-align: center;
+  padding: 15px;
+  background-color: #004d40;
+  color: white;
+}
