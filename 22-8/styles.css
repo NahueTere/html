@@ -1,0 +1,13 @@
+body{
+    place-items: center;
+}
+td{
+    color: blue;
+    border-color: chocolate;
+    background-color: beige;
+}
+th{
+    color: black;
+    border-color: chocolate;
+    background-color: #f5f5dcb5; 
+}
